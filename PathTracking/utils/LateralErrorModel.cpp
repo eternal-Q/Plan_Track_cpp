@@ -1,6 +1,3 @@
-//
-// Created by chh3213 on 23-8-19.
-//
 #include "LateralErrorModel.h"
 
 LateralErrorModel::LateralErrorModel(double m, double Vx, double C_alpha_f, double C_alpha_r, double l_f, double l_r, double I_z, double g)

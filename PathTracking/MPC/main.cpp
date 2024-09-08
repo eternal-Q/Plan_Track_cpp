@@ -1,6 +1,3 @@
-//
-// Created by chh3213 on 2022/11/25.
-//
 #include "MPCControl.h"
 #include "../utils/MyReferencePath.h"
 #include "../utils/KinematicModel.h"

@@ -1,7 +1,3 @@
-//
-// Created by chh3213 on 2022/12/23.
-//
-
 #include "ModelPredictiveControl.h"
 
 /**

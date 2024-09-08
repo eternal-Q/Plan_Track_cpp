@@ -1,7 +1,3 @@
-//
-// Created by chh3213 on 23-8-19.
-//
-
 #ifndef CHHROBOTICS_CPP_LATERALERRORMODEL_H
 #define CHHROBOTICS_CPP_LATERALERRORMODEL_H
 #include <iostream>

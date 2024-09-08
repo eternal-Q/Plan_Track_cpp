@@ -1,6 +1,3 @@
-//
-// Created by chh3213 on 2022/11/25.
-//
 
 #ifndef CHHROBOTICS_CPP_LQRCONTROL_H
 #define CHHROBOTICS_CPP_LQRCONTROL_H

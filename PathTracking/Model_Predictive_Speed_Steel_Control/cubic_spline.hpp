@@ -1,7 +1,3 @@
-//
-// Created by chh3213 on 2022/12/23.
-//
-
 #ifndef CHHROBOTICS_CPP_CUBIC_SPLINE_HPP
 #define CHHROBOTICS_CPP_CUBIC_SPLINE_HPP
 

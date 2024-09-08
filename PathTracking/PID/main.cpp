@@ -1,7 +1,3 @@
-//
-// Created by chh3213 on 2022/11/24.
-//
-
 #include "../utils/KinematicModel.h"
 #include "PID_controller.h"
 #include <algorithm>

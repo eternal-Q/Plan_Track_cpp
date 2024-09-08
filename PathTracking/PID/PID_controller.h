@@ -1,6 +1,3 @@
-//
-// Created by chh3213 on 2022/11/24.
-//
 
 #ifndef CHHROBOTICS_CPP_PID_CONTROLLER_H
 #define CHHROBOTICS_CPP_PID_CONTROLLER_H
