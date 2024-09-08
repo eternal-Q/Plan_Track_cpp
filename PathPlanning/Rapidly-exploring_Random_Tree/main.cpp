@@ -32,7 +32,7 @@ int main(){
 
     pair<vector<double>, vector<double>>traj = rrt.planning();
 
-
+    cout << "------" << endl;
     plt::plot(traj.first,traj.second,"r");
     const char* filename = "./rrt_demo.png";
     cout << "Saving result to " << filename << std::endl;

@@ -30,6 +30,7 @@ int main(){
         plt::pause(0.01);
     }
     // save figure
+    cout << "------" << endl;
     const char* filename = "./bezier_demo.png";
     cout << "Saving result to " << filename << std::endl;
     plt::save(filename);

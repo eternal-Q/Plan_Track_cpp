@@ -81,6 +81,7 @@ int main(){
     plt::plot(x_ref,y_ref);
     plt::pause(0.01);
     // save figure
+    cout << "------" << endl;
     const char* filename = "./b_spline_demo.png";
     cout << "Saving result to " << filename << std::endl;
     plt::save(filename);

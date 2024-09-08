@@ -49,6 +49,7 @@ int main(){
 
 
     pair<vector<double>, vector<double>> xy = dijkstra.planning(start, goal);
+    cout << "------" << endl;
     plt::plot(xy.first,xy.second,"-r");
 
     const char* filename = "./dijkstra_demo.png";

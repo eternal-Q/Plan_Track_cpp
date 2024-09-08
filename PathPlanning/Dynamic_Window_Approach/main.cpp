@@ -97,7 +97,7 @@ int main(){
         if(dist_to_goal<=radius)break;
     }
 
-    //// save figure
+    cout << "------" << endl;
     const char* filename = "./dwa_demo.png";
     cout << "Saving result to " << filename << std::endl;
     plt::save(filename);

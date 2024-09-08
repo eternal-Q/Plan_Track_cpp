@@ -31,7 +31,7 @@ int main(){
     rrt.setAnEnd(end);
 
     pair<vector<double>, vector<double>>traj = rrt.planning();
-
+    cout << "------" << endl;
 
     plt::plot(traj.first,traj.second,"r");
     const char* filename = "./rrt_connect_demo.png";

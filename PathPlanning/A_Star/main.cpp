@@ -49,6 +49,7 @@ int main(){
 
 
     pair<vector<double>, vector<double>> xy = astar.planning(start, goal);
+    cout << "------" << endl;
     plt::plot(xy.first,xy.second,"-r");
 
     const char* filename = "./astar_demo.png";

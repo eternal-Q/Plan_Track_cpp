@@ -51,6 +51,7 @@ int main(){
     }
 
     MatrixXd temp1(1,6),temp2(1,6);
+    cout << "------" << endl;
     for(int i=0;i<cnt;i++){
         temp1<<pow(time[i], 5),pow(time[i], 4),pow(time[i], 3),pow(time[i], 2),time[i],1;
         x_.push_back((temp1*A)(0,0));

@@ -11,6 +11,8 @@ int main(){
     double step_size = 0.1;
     Dubins dubins;
     Dubins::ResultDubins rd = dubins.dubins_path_planning(start,goal,curvature,step_size);
+    
+    cout << "------" << endl;
     plt::plot(rd.p_x,rd.p_y);
     plt::plot(vector<double>{start[0]},vector<double>{start[1]},"og");
     plt::plot(vector<double>{goal[0]},vector<double>{goal[1]},"xb");

@@ -13,14 +13,7 @@ int main(){
     plt::plot(vector<double>{start[0]},vector<double>{start[1]},"og");
     plt::plot(vector<double>{goal[0]},vector<double>{goal[1]},"xb");
     plt::title("mode: "+path.modes);
-    //for(int i=0;i<path.x.size();i++){
-    //    plt::clf();
-    //    cout<<path.x[i]<<","<<path.y[i]<<endl;
-    //    cout<<path.lengths[i]<<endl;
-    //    plt::plot(vector<double>{path.x[i]},vector<double>{path.x[i]},"-r");
-    //    //reedsShepp.plotArrow(vector<double>{start[0]},vector<double>{start[1]},vector<double>{start[2]});
-    //    plt::pause(0.001);
-    //}
+    cout << "------" << endl;
     const char* filename = "./reedsShepp_demo.png";
     cout << "Saving result to " << filename << std::endl;
     plt::save(filename);

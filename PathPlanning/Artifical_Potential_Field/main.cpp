@@ -78,6 +78,7 @@ int main(){
 
     }
     //// save figure
+    cout << "------" << endl;
     const char* filename = "./apf_demo.png";
     cout << "Saving result to " << filename << std::endl;
     plt::save(filename);
