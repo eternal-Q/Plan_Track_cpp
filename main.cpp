@@ -10,14 +10,5 @@ using namespace Eigen;
 #include "PathPlanning/Rapidly-exploring_Random_Tree/RRT.h"
 int main()
 {
-    //Vector3d a(1,2,3);
-    //Vector3d b(1,2,3);
-    //a[0]-=b[0];
-    //cout<<a<<endl;
-    //MatrixXd xref(3,2);
-    //xref(0)=1;
-    //cout<<xref<<endl;
-    round(5.314);
     return 0;
-
 }

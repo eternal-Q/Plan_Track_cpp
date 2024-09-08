@@ -1,4 +1,4 @@
-### CMake template
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -12,8 +12,6 @@ CTestTestfile.cmake
 _deps
 build
 
-### Example user template template
-### Example user template
 
 # IntelliJ project files
 .idea

@@ -31,7 +31,7 @@
 #    define CV_BGR2RGB cv::COLOR_BGR2RGB
 #    define CV_BGRA2RGBA cv::COLOR_BGRA2RGBA
 #  endif
-#endif // WITHOUT_NUMPY
+#endif 
 
 #if PY_MAJOR_VERSION >= 3
 #  define PyString_FromString PyUnicode_FromString
@@ -103,18 +103,6 @@ struct _interpreter {
     PyObject *s_python_function_subplots_adjust;
     PyObject *s_python_function_rcparams;
     PyObject *s_python_function_spy;
-
-    /* For now, _interpreter is implemented as a singleton since its currently not possible to have
-       multiple independent embedded python interpreters without patching the python source code
-       or starting a separate process for each. [1]
-       Furthermore, many python objects expect that they are destructed in the same thread as they
-       were constructed. [2] So for advanced usage, a `kill()` function is provided so that library
-       users can manually ensure that the interpreter is constructed and destroyed within the
-       same thread.
-
-         1: http://bytes.com/topic/python/answers/793370-multiple-independent-python-interpreters-c-c-program
-         2: https://github.com/lava/matplotlib-cpp/pull/202#issue-436220256
-       */
 
     static _interpreter& get() {
         return interkeeper(false);
